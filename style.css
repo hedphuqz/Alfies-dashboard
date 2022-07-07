@@ -1,0 +1,40 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todo {
+border: 1px solid gray;
+padding: 12px;
+border-radius: 12px;
+}
+
+.todo__entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.todo__entry input[type="checkbox"] {
+  margin-right: 12px;
+}
+
+.todo__entry p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+.todo__entry button {
+  background-color: crimson;
+  color: pink;
+  border: 1px solid pink;
+  border-radius: 12px;
+  padding: 2px 4px;
+}
+
